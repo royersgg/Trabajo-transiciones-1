@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.active{
+  background-color: rgb(228, 104, 2);
+  border-bottom: solid white
+}
+
+nav{
+  background-color: rgb(23, 189, 255);
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a{
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: rgb(246, 252, 250);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 15px;
+}
+nav ul li a:hover{
+    background-color: rgb(228, 104, 2);
+    transition-duration: 1s;
+    border-bottom: solid rgb(248, 141, 141)
+}    
+/*Estilo inicio*/
+.page1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 200px;
+    height:200px;
+    background-color: red;
+    transition-property: all;
+    transition-duration: 3s;
+}
+.page1:hover{
+    background-color: rgb(0, 204, 255);
+    width: 300px;
+    height:300px;
+ 
+}
+/*Estilo Pagina2*/
+.page2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 200px;
+    height:200px;
+    background-color: rgb(255, 123, 0);
+    transition-property:  background-color, width, height, border;
+    transition-delay: 1s,0s,1s,1.5s;
+    transition-duration: 1s;
+    
+}
+.page2:hover{
+    background-color:red;
+    width: 300px;
+    height:300px;
+    border: solid 8px turquoise;
+}
+/*Estilo Pagina3*/
+.page3{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 200px;
+    height:200px;
+    background-color: rgb(255, 0, 76);
+    transition-property: all,background-color,border-radius;
+    transition-delay: 0s,.5s;
+    transition-duration: 1s;
+}
+.page3:hover{
+    background-color:red;
+    width: 300px;
+    height:300px;
+}
+.page3 div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 80px;
+    height:80px;
+    background-color: aqua;
+    transition-property: all,;
+    transition-delay: 1.5s;
+    transition-duration: 1.5s;
+}
+.page3:hover div{
+    background-color:rgb(255, 0, 179);
+    width: 160px;
+    height:160px;
+    border-radius: 50%;
+}
+
+/*Estilo Pagina4*/
+.page4{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 240px;
+    height:240px;
+    background-color: rgb(255, 0, 0);
+    transition-property: width,height,background-color;
+    transition-delay: 0.5s,1.2s,1.8s;
+    transition-duration: 0.5s;
+}
+.page4:hover{
+    width: 280px;
+    height: 280px;
+    background-color: aqua;
+}
+.page4 aside{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    background-color: rgb(0, 255, 55);
+    width: 80px;
+    height:80px;
+    transition-property: all;
+    transition-delay: 3s;
+    transition-duration: 1s;
+}
+.page4 footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(0, 255, 55);
+    width: 80px;
+    height:80px;
+    transition-property: all;
+    transition-delay: 3s;
+    transition-duration: 1s;
+}
+.page4:hover aside{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    border-radius: 50%;
+    background-color:blueviolet;
+  
+}
+.page4:hover footer{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    border-radius: 50%;
+    background-color:rgb(200, 231, 25);
+}
+/* Estilo pagina 5*/
+.page5{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(230, 46, 0);
+    transition-property: background-color, width, height;
+    transition-duration: 1s;
+    transition-delay: 0s,1s,2s;
+}
+.page5:hover{
+    width: 280px;
+    height: 280px;
+    background-color: rgb(0, 196, 230);
+}
+.page5 article{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(246, 250, 18);
+    transition-property: top, right, border-radius;
+    transition-delay: 3s,3s,4s;
+    transition-duration: 1s;
+}
+.page5:hover article{
+    position: absolute;
+    top: 20px;
+    right:30px;
+    border-radius: 50%;
+}
+.page5 div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(246, 250, 18);
+    transition-property: border-radius,background-color;
+    transition-delay: 5s,6s;
+    transition-duration: 1s;
+}
+.page5:hover div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(250, 18, 180);
+}
+.page5 ol{
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(246, 250, 18);
+    transition-property: bottom, left, border-radius;
+    transition-delay: 3s,3s,4s;
+    transition-duration: 1s;
+}
+.page5:hover ol{
+    position: absolute; 
+    bottom: 20px;
+    left: 30px;
+    border-radius: 50%;
+}
+/* Estilo pagina 6*/
+.page6{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 136, 0);
+    transition-property: width, height, border-top, border-right, border-bottom, border-left;
+    transition-duration: 1s;
+    transition-delay: 0s, 0s, 1s, 2s, 3s, 4s;
+}
+.page6:hover{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 280px;
+    height: 280px;
+    border-top: solid 8px red;
+    border-right: solid 8px black;
+    border-bottom: solid 8px blue;
+    border-left: solid 8px aqua;
+}
+.page6 ul{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(243, 30, 154);
+    transition-property: top, left, border-radius;
+    transition-delay: 5s, 5s, 6s;
+    transition-duration: 1s;
+}
+.page6:hover ul{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(243, 30, 154);
+}
+.page6 h2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(243, 30, 154);
+    transition-property: top, right, border-radius;
+    transition-delay: 7s, 7s, 8s;
+    transition-duration: 1s;
+}
+.page6:hover h2{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(243, 30, 154);
+}
+.page6 h3{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(243, 30, 154);
+    transition-property: border-radius, background-color;
+    transition-delay: 13s, 14s;
+    transition-duration: 1s;
+}
+.page6:hover h3{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(229, 243, 30);
+}
+.page6 h4{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(243, 30, 154);
+    transition-property: left, bottom, border-radius;
+    transition-delay: 9s, 9s, 10s;
+    transition-duration: 1s;
+} 
+.page6:hover h4{
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.page6 h5{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(243, 30, 154);
+    transition-property: right, bottom, border-radius;
+    transition-delay: 11s, 11s, 12s;
+    transition-duration: 1s;
+}
+.page6:hover h5{
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
